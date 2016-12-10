@@ -531,6 +531,9 @@ extern struct cpufreq_governor cpufreq_gov_interactivex;
 #elif defined(CONFIG_CPU_FREQ_DEFAULT_GOV_ALESSA)
 extern struct cpufreq_governor cpufreq_gov_alessa;
 #define CPUFREQ_DEFAULT_GOVERNOR	(&cpufreq_gov_alessa)
+#elif defined(CONFIG_CPU_FREQ_DEFAULT_GOV_LIONHEART)
+extern struct cpufreq_governor cpufreq_gov_lionheart;
+#define CPUFREQ_DEFAULT_GOVERNOR 	(&cpufreq_gov_LIONHEART)
 #endif
 
 /*********************************************************************
