@@ -32,26 +32,13 @@
 *.lzo
 *.patch
 *.gcno
-*.ll
-build.sh
-gcc.sh
-dtc.sh
-linaro.sh
-stable.sh
 modules.builtin
 Module.symvers
 *.dwo
-secret.yml
 
 #
 # Top-level generic files
 #
-/out
-/dapur
-/gcc
-/lin
-/dragontc
-/anykernel
 /tags
 /TAGS
 /linux
