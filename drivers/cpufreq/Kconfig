@@ -137,13 +137,6 @@ config CPU_FREQ_DEFAULT_GOV_SCHED
 	  cpu frequency using CPU utilization estimates from the
 	  scheduler.
 
-config CPU_FREQ_DEFAULT_GOV_IRONACTIVE
-	bool "ironactive"
-	select CPU_FREQ_GOV_IRONACTIVE
-	help
-	  Use the CPUFreq governor 'ironactive' as default. This cpugovernor
-	  is based on the 'interactive' governor with many changes made by CAF.
-
 config CPU_FREQ_DEFAULT_GOV_INTERACTIVEX
 	bool "interactivex"
 	select CPU_FREQ_GOV_INTERACTIVEX
