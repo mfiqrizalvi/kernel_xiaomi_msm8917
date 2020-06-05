@@ -1,0 +1,9 @@
+version: 2
+jobs:
+  build:
+    docker:
+      - image: mfiqrizalvi/wyrd_docker:latest
+    steps:
+      - checkout
+      - run: wget https://raw.githubusercontent.com/mfiqrizalvi/build-script/master/circleci/rolex/rolex-gcc.sh
+      - run: bash rolex-gcc.sh
